@@ -32,6 +32,19 @@ exclude: true
 - Held on 29th, 30th May
 
 ---
+### de:code 2019
+
+- Most of sessions are about Microsoft Azure
+
+- Lots of sessions about AKS
+
+ - The number of introduction examples is increasing
+
+- Their ervices(cloud services especially) are getting sophisticated
+
+  - More simple, more functional
+
+---
 ### What I was interested in
 
 - Windows Containers
@@ -360,6 +373,15 @@ nanoserver-iis-6465dc649f-v7q2x   1/1     Running   0         53s
 20.43.88.185    virtual-kubelet-virtual-kubelet-windows-japaneast 
 ```
 ]
+
+---
+### Access to the Pods
+
+- Pods on vertual kubelet nodes have public IP address
+
+  - No need to create service resources
+
+<center><img src="aci-sample.png" width=80%></center>
 
 ---
 class: middle, background-image
